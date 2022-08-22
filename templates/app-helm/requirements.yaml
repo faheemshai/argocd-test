@@ -1,4 +1,4 @@
 dependencies:
-- name: <app-chart-name>
-  version: <helm chart version>
-  repository: https://<helm-repository-location>
+- name: test-ibm
+  version: 0.0.1
+  repository: https://artifactory-tools.workshop1-cluster-0ed2b1307d0ce0e0627ae949f443cd72-0000.eu-de.containers.appdomain.cloud/artifactory/generic-local/devopstest
