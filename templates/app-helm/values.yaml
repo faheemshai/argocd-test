@@ -5,7 +5,7 @@ global:
 # replace <app-chart-name> with the value given in requirements.yaml
 sprinboot:
   # provides values from the values.yaml in the <app-chart-name> helm chart
-  replicaCount: 1
+  replicaCount: 2
   
   # For OpenShift set route.enabled=true
   # For Kubernetes set route.enabled=false
