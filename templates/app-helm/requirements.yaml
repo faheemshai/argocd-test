@@ -1,4 +1,4 @@
 dependencies:
-- name: springboot
+- name: sprinboot
   version: 0.0.1
   repository: https://artifactory-tools.apps.wjng3iix.eastus.aroapp.io/artifactory/generic-local/devfs
