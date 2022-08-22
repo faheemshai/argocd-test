@@ -1,6 +1,6 @@
 global:
-  ingressSubdomain: <dev-cluster-name>.us-south.containers.appdomain.cloud
-  tlsSecretName: <dev-cluster-name>
+#  ingressSubdomain: <dev-cluster-name>.us-south.containers.appdomain.cloud
+# tlsSecretName: <dev-cluster-name>
 
 # replace <app-chart-name> with the value given in requirements.yaml
 <app-chart-name>:
@@ -16,4 +16,4 @@ global:
   # For Kubernetes set ingress.enabled=true
   ingress:
     enabled: false
-    tlsSecretName: <dev-cluster-name>
+#    tlsSecretName: <dev-cluster-name>
